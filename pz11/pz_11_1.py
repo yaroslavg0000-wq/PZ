@@ -1,9 +1,6 @@
 temperatures = [-2, -1, 0, 3, 5, 7, 8, 6, 4, 1, -1, -3, -5, -4, 0,
                 2, 4, 6, 8, 0, 9, 7, 5, 3, 1, -1, -2, -3, -1, 0, 2]
 
-print("=" * 50)
-print("Анализ температур за март")
-print("=" * 50)
 print(f"Исходные данные (31 день):\n{temperatures}\n")
 
 positive_count = sum(1 for t in temperatures if t > 0)

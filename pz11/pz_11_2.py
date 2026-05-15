@@ -2,11 +2,6 @@ def to_lower_generator(text):
     for char in text:
         yield char.lower()
 
-
-print("\n" + "=" * 50)
-print("Генератор: перевод в нижний регистр")
-print("=" * 50)
-
 original_string = "PyThon ProGramming Is FUn!"
 print(f"Исходная строка: {original_string}")
 
